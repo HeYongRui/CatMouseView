@@ -6,13 +6,36 @@
     android:layout_height="match_parent"
     tools:context="com.heyongrui.catloadingview.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Dialog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <com.heyongrui.catloadingview.library.CatMouseView
+        android:id="@+id/loadingview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:anim_duration="5000"
+        app:bg_color="@color/colorPrimary"
+        app:bg_fillet_radius="@dimen/dp_10"
+        app:gradually_text="L O A D I N G..."
+        app:is_show_gradually_text="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </android.support.constraint.ConstraintLayout>

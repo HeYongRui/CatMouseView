@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CatMouseView">
+        <attr name="bg_color" format="color|reference" />
+        <attr name="bg_fillet_radius" format="dimension|reference" />
+        <attr name="anim_duration" format="float" />
+        <attr name="is_show_gradually_text" format="boolean" />
+        <attr name="gradually_text" format="string|reference" />
+    </declare-styleable>
+</resources>
