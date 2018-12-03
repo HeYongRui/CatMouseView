@@ -1,6 +1,6 @@
 # CatMouseView [![](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)  [![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![RxTool](https://jitpack.io/v/HeYongRui/CatMouseView.svg)](https://jitpack.io/#HeYongRui/CatMouseView)  [![Twitter](https://img.shields.io/badge/Gradle-3.1.4-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)
 
-CatMouseView是一个可与用户交互的有趣的猫鼠动画自定义View，可用于用户操作等待的loading视图等场景，避免用户等待的无聊。
+CatMouseView是一个可与用户交互的有趣的猫鼠动画自定义View，可用于用户操作时的loading等场景。在动画过程中，用户可点击屏幕捕捉老鼠，随着老鼠被抓住的次数增加，游戏的难度会逐步递增(老鼠跑动速度加快)，以此来增加用户体验效果，避免用户等待的无聊。
 
 ![image](https://raw.githubusercontent.com/HeYongRui/CatMouseView/master/screenshot/GIF.gif) 
 
