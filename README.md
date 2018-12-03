@@ -1,13 +1,13 @@
 # CatMouseView [![](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)  [![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![RxTool](https://jitpack.io/v/HeYongRui/CatMouseView.svg)](https://jitpack.io/#HeYongRui/CatMouseView)  [![Twitter](https://img.shields.io/badge/Gradle-3.1.4-brightgreen.svg)](https://github.com/jiangzehui/polygonsview)
 
-CatMouseView是一个可与用户交互的有趣的猫鼠动画自定义View，可以用于用户操作等待的loading视图等场景，避免用户等待的无聊。
+CatMouseView是一个可与用户交互的有趣的猫鼠动画自定义View，可用于用户操作等待的loading视图等场景，避免用户等待的无聊。
 
 ![image](https://raw.githubusercontent.com/HeYongRui/CatMouseView/master/screenshot/GIF.gif) 
 
 ## Demo
-[下载 APK-Demo](https://github.com/HeYongRui/CatMouseView/raw/master/apk/app-debug.apk)
+[下载 APK-Demo](https://github.com/HeYongRui/CatMouseView/raw/master/apk/app-debug.apk)体验
 
-## Installation
+## 安装
 Step 1. Add the JitPack repository to your build file
 
 ```groovy
@@ -27,7 +27,7 @@ dependencies {
 }
 ```
 
-## Usage
+## 使用
 
 Java:
 ```
@@ -57,4 +57,4 @@ XML
  loadingDialog.show();
 ```
 ## 参考&Thx
-感谢[Rogero0o](https://github.com/Rogero0o)提供的思路，我参考[CatLoadingView](https://github.com/Rogero0o/CatLoadingView)，对其进行了优化和一些改动，并加入了用户交互。
+感谢[Rogero0o](https://github.com/Rogero0o)的[CatLoadingView](https://github.com/Rogero0o/CatLoadingView)，我参考其思路并对其存在的问题进行了优化和一些改动，并加入了用户交互功能。
