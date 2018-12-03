@@ -41,11 +41,10 @@ Java:
 XML
 ```
  <com.heyongrui.catmouseview.library.CatMouseView
-        android:id="@+id/loadingview1"
+        android:id="@+id/loadingview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_20"
-        app:anim_duration="5000"
+        app:anim_duration="2000"
         app:bg_color="@color/colorPrimary"
         app:bg_fillet_radius="@dimen/dp_10"
         app:gradually_text="L O A D I N G..."
