@@ -1,9 +1,11 @@
-package com.heyongrui.catloadingview.library;
+package com.heyongrui.catmouseview.library;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.Gravity;
+import android.view.Window;
+
 
 /**
  * Created by lambert on 2018/11/30.
@@ -24,6 +26,7 @@ public class CatMouseDialog extends Dialog {
 
     private void init(Context context) {
         getWindow().setGravity(Gravity.CENTER);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         mCatMouseView = new CatMouseView(context);
         setContentView(mCatMouseView);
     }

@@ -1,4 +1,4 @@
-package com.heyongrui.catloadingview.library;
+package com.heyongrui.catmouseview.library;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

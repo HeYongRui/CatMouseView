@@ -1,4 +1,4 @@
-package com.heyongrui.catloadingview.library;
+package com.heyongrui.catmouseview.library;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -13,6 +13,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
+
 
 /**
  * Created by lambert on 2018/10/15.
@@ -80,7 +81,7 @@ public class CatMouseView extends ConstraintLayout {
             double touchAngle = angle > 180 ? (angle - 180) : (angle + 180);
             float rotateAngle = mRotateAngle > 360 ? mRotateAngle % 360 : mRotateAngle;
             double abs = Math.abs((rotateAngle - touchAngle));
-            if (abs <= 20) {//如果老鼠头的旋转角度和点击处角度误差不超过20°，就认为抓住了老鼠
+            if (abs <= 10) {//如果老鼠头的旋转角度和点击处角度误差不超过10°，就认为抓住了老鼠
                 stopRotateAnim();
                 catClawView1.setCanClick(false);
                 smileCat.setVisibility(View.VISIBLE);

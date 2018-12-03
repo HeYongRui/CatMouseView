@@ -1,4 +1,4 @@
-package com.heyongrui.catloadingview.library;
+package com.heyongrui.catmouseview.library;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,6 +8,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
 
 /**
  * Created by lambert on 2018/11/29.

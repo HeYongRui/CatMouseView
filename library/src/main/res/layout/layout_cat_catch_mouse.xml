@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.heyongrui.catloadingview.library.CatClawView
+    <com.heyongrui.catmouseview.library.CatClawView
         android:id="@+id/pie_chart_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -49,7 +49,7 @@
         app:layout_constraintStart_toStartOf="@+id/cat"
         app:layout_constraintTop_toTopOf="@+id/cat" />
 
-    <com.heyongrui.catloadingview.library.EyelidView
+    <com.heyongrui.catmouseview.library.EyelidView
         android:id="@+id/eyelid_left"
         android:layout_width="0dp"
         android:layout_height="@dimen/dp_10"
@@ -66,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="@+id/cat"
         app:layout_constraintTop_toTopOf="@+id/eye_left" />
 
-    <com.heyongrui.catloadingview.library.EyelidView
+    <com.heyongrui.catmouseview.library.EyelidView
         android:id="@+id/eyelid_right"
         android:layout_width="0dp"
         android:layout_height="@dimen/dp_10"
@@ -87,7 +87,7 @@
         app:layout_constraintTop_toTopOf="@+id/cat"
         tools:visibility="visible" />
 
-    <com.heyongrui.catloadingview.library.GraduallyTextView
+    <com.heyongrui.catmouseview.library.GraduallyTextView
         android:id="@+id/graduallyTextView"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
