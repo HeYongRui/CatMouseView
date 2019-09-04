@@ -55,5 +55,3 @@ XML
  CatMouseDialog loadingDialog = new CatMouseDialog(MainActivity.this);
  loadingDialog.show();
 ```
-## 参考&Thx
-感谢[Rogero0o](https://github.com/Rogero0o)的[CatLoadingView](https://github.com/Rogero0o/CatLoadingView)，我参考其思路并对其存在的问题进行了优化和一些改动，并加入了用户交互功能。
